@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js") 
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+        section#heading 
+            | WELCOME TO MY DANCE ACADEMY
+        section#sponcer 
+            h2 This is sponcer section
+            div#sponcersection
+                img(src= "/static/img/img1.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/img2.jpg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/img3.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/img4.png", alt= "Sponsor Image", class= "spImage") 
+        section#description 
+            h2 Here you learn various type of dances 
+            div#container 
+                div.card
+                    h3 pop dance 
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/1.jpg")
+                        div.card-content
+                            p This is section where we learn pop dance
+                div.card
+                    h3 Hip Hop dance 
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/2.jpg")
+                        div.card-content
+                            p This is section where we learn hip hop dance
+                div.card
+                    h3 Disco dance 
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/4.jpg")
+                        div.card-content
+                            p This is section where we learn disce dance
+                div.card
+                    h3 Classic dance 
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/3.jpg")
+                        div.card-content
+                            p This is section where we learn classical dance

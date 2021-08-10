@@ -1,0 +1,100 @@
+ul{
+
+    margin: 0px;
+    display: flex;
+    background-color: black;
+   
+}
+li{
+    flex-direction: row;
+    list-style: none;
+    margin : 16px;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+#heading{
+    margin: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/heading.jpg") ;
+    height: 999px;
+    background-color: red;
+}
+#sponcer{
+    margin:0px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sponcersection{
+    display: flex;
+    
+}
+.spImage{
+    height: 275px;
+    margin-left: 22px;
+  
+}
+#description{
+    margin:0px;
+    text-align: center;
+    
+    height: 473px;
+    
+}
+#container{
+    display: flex;
+}
+#logo{
+   
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 18px;
+}
+#logo img{
+    height: 34px;
+    position: absolute;
+    left: 15px;
+   
+}
+
+.card{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 370px;
+}
+#foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.myForm input{
+    width: 677px; 
+    margin:5px;
+}
+h1{
+    text-align: center;
+}
+
